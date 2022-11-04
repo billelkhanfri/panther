@@ -30,15 +30,15 @@
     />
 
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
-    <script defre src="./js/jquery-2.1.0.js"></script>
-    <script defer src="./js/bootstrap.js"></script>
-    <script defer src="./js/blocs.js"></script>
-    <script defer src="./js/jquery.touchSwipe.js" defer></script>
-    <script src="./js/gmaps.js"></script>
+    <script defre src="./js/jquery-2.1.0.min.js"></script>
+    <script defer src="./js/bootstrap.min.js"></script>
+    <script defer src="./js/blocs.min.js"></script>
+    <script defer src="./js/jquery.touchSwipe.min.js" defer></script>
+    <script src="./js/gmaps.min.js"></script>
     <title>Contact de L'agence La Panthère À Lyon</title>
     <!-- Analytics -->
 
@@ -125,11 +125,11 @@
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label for="name"> Nom </label>
                   <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
@@ -138,7 +138,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label for="input_504"> Comment nous avez-vous connu ? </label>
                   <input
                     class="form-control"
                     type="email"
@@ -147,7 +147,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label for="message">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -183,6 +183,7 @@
       ></a>
       <!-- ScrollToTop Button END-->
 
+
       <!-- Footer - bloc-8 -->
       <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
         <div class="container bloc-sm">
@@ -194,33 +195,35 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-twitter icon-md"></span
-                    ></a>
+                    <a  aria-label="vers la page Twitter" class="social"  target="_blank" rel="noopener" href="https://twitter.com/?lang=fr"
+                      ><span class="fa fa-twitter icon-md"></span 
+                    > Twitter</a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-facebook icon-md"></span
-                    ></a>
+                    <a aria-label="vers la page Facebook" class="social" target="_blank" rel="noopener" href="https://fr-fr.facebook.com"
+                      ><span class="fa fa-facebook icon-md"></span class="social-media"
+                    > Facebook</a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a aria-label="vers la page Dribble" class="social" target="_blank" rel="noopener" href="https://dribbble.com"
                       ><span class="fa fa-dribbble icon-md"></span
-                    ></a>
+                    > Dribble</a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a  aria-label="vers la page Instagram"class="social" target="_blank" rel="noopener" href="https://www.instagram.com/?hl=fr"
                       ><span class="fa fa-instagram icon-md"></span
-                    ></a>
+                    > Instagram</a>
                   </div>
                 </div>
+              
               </div>
+           
             </div>
           </div>
         </div>
