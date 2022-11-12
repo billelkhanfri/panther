@@ -564,7 +564,7 @@ label,
   color: #000;
 }
 h1 {
-  color: #fff;
+  color:black;
 }
 .container {
   max-width: 1000px;
@@ -622,9 +622,7 @@ h3 {
   margin: auto auto auto auto;
   box-shadow: 0 0 0 #000;
 }
-h1 {
-  color: #fff;
-}
+
 h4 {
   color: #333333 !important;
 }
@@ -660,7 +658,7 @@ h4 {
   background-color: #f3976c;
 }
 .tc-white {
-  color: white !important;
+  color: black!important;
   font-weight: 700;
 }
 .btn-atomic-tangerine {
